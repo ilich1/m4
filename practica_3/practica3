@@ -1,0 +1,34 @@
+<?xml version="1.0" encodign="UTF-8"?>
+ 
+<students>
+   <a:student>
+           <name>Paco</name>
+           <surname>fornai</surname>
+           <email>pfornai22@jaumebalmes.net</email>
+           <dni>23123242S</dni>
+</a:student>
+<b:student>
+           <name>Jose</name>
+           <surname>Dominguez</surname>
+           <email>jdominguez22@jaumebalmes.net</email>
+           <dni>22304921A</dni>
+</b:student>
+<c:student>
+           <name>Miguel</name>
+           <surname>Ruiz</surname>
+           <email>mruiz22@jaumebalmes.net</email>
+           <dni>23123412Q</dni>
+</c:student>
+<d:student>
+           <name>Marc</name>
+           <surname>Pinto</surname>
+           <email>mpinto22@jaumebalmes.net</email>
+           <dni>23123028P</dni>
+</d:student>
+<e:student>
+           <name>Alvaro</name>
+           <surname>Cosano</surname>
+           <email>acosano22@jaumebalmes.net</email>
+           <dni>23120092W</dni>
+</e:student>
+</students>

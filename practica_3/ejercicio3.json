@@ -1,0 +1,35 @@
+{"students": {
+    "student a":{
+        "name":"Paco",
+        "surname":"fornai",
+        "email":"pfornai22@jaumebalmes.net",
+        "dni":"23123242S"
+    },
+
+    "student b": {
+        "name":"Jose",
+        "surname":"Dominguez",
+        "email":"jdominguez22@jaumebalmes.net",
+        "dni":"22304921"
+    },
+
+    "student c": {
+        "name":"Miguel",
+        "surname":"Ruiz",
+        "email":"mruiz22@jaumebalmes.net",
+        "dni":"23123412Q"
+    },
+
+    "student d": {
+        "name":"Marc",
+        "surname":"Pinto",
+        "email":"mpinto22@jaumebalmes.net",
+        "dni":"23123028P"
+    },
+    "student e": {
+        "name":"Alvaro",
+        "surname":"Cosano",
+        "email":"acosano22@jaumebalmes.net",
+        "dni":"23120092W"
+    }
+}}
