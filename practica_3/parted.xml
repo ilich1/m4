@@ -1,0 +1,11 @@
+<?xml version="1.0" encodign="UTF-8"?>
+<bookstore>
+    <book>
+        <title>JSON</title>
+        <publisher>DAW</publisher>
+        <cover>Huawei</cover>
+        <price>
+            <currency>780€</currency>
+        </price>
+    </book>
+</bookstore>
