@@ -1,0 +1,9 @@
+{"bookstore": {
+    "book": {
+        "title": "JSON",
+        "publisher": "DAW",
+        "cover": "Huawei",
+        "price": {
+            "currency": "780€"}
+        },
+}}
