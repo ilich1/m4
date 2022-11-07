@@ -1,0 +1,16 @@
+#subtitulo{
+    position: relative;
+    left: 400px;
+    top:-130px;
+}
+#geo{
+    position: relative;
+    left:620px;
+    top:-145px;
+    color: #AB2A3E;
+
+}
+#parteI{
+    position: relative;
+    top:-100px;
+}
