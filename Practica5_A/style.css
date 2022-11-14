@@ -1,0 +1,20 @@
+/*S'elimina el padding i amb border-collapse es permet que els diferents borde estiguin als mateixos pixels*/
+*{ 
+    padding: 0;
+    border-collapse:collapse;
+
+}
+/*en les seguent línes es dona el borde a la tabla i color al títol, a més de moure el contingut 3px a l'esquerra*/
+.tablaP tr td{
+    border: 1px solid black;
+    position: relative;
+    left: 3px;
+}
+.tablaP tr th{
+    border: 1px solid black;
+    background-color: #C0C0C0;
+    
+}
+.tablaP caption{
+    color: blue;
+}
