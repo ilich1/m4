@@ -1,0 +1,21 @@
+/*ESTRUCTURACIÓ I RESET DELS ESTÍLS*/
+html ,body{
+    height: 100%;
+}
+
+.headCont{
+    display: flex;
+    border: 1px solid black;
+    height: 60PX;
+    align-items: center;
+
+}
+.headCont a{
+    color:#202124;
+    text-decoration: none;
+    padding: 6px;
+}
+
+.subHead{
+    
+}
