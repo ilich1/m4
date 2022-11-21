@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+       <title>FORM </title> 
+    </head>
+    <body>
+        <form><!-- <!hacemos unas casillas en las cuales se puede añadir Nom,Cognom i Edat> -->
+            <label>Nom:</label>
+            <input type="text" id="nom" name="nom"><br><br>
+            <label>Cognom:</label>
+            <input type="text" id="cognom" cognom="cognom"><br><br>
+            <label>Edat:</label>
+            <input type="text" id="edat" edat="edat">
+        </form>
+        <p>Cicle formatiu que es vol cursar l'any vinent:</p><!-- <!texto orientativo> -->
+        <form><!-- <!Hacemos un pequeño ejercicio de eleccion entre: DAM, ASIX i Altres> -->
+            <label for="DAM">DAM</label>
+            <input type="radio" id="html" name="fav_language" value="DAM"><br>
+            <label for="ASIX">ASIX</label>
+            <input type="radio" id="html" name="fav_language" value="ASIX"><br>
+            <label for="Altres">Altres</label>
+            <input type="radio" id="html" name="fav_language" value="Altres"><br>
+            <p>Marca les teves aficions:</p><!texto orientativo>
+            <label>Estudiar<input type="checkbox"></label><br><!-- <!Las siguientes lineas de codigo son para marcar una o varias aficiones: Estudiar,Asix,Llibres,Jugar Magic,Fer burilles i Altres> -->
+            <label>ASIX<input type="checkbox"></label><br>
+            <label>Llibres<input type="checkbox"></label><br>
+            <label>Jugar a Magic<input type="checkbox"></label><br>
+            <label>Fer burilles<input type="checkbox"></label><br>
+            <label>Altres</label><!-- <!Altres esta acompañado de un recuadro donde se puede añadir lo que queramos> -->
+            <textarea name="message" row="50" cols="10">
+
+            </textarea><br><br>
+            <form><!-- creamos una recuadro de elecciones pero en formato de pestaña que incluye: HTML4 01,HTML5 I HTML 1.0 -->
+                <label for="HTML">L'estandard d'HTML que més m'agrada:</label>
+                <select id="HTML" name="HTML">
+                   
+                    <option value="HTML 4 01">HTML 4 01</option>
+                    <option value="XHTML 1.0">XHTML 1.0</option>
+                    <option value="HTML5">HTML5</option>
+                </select>
+
+            </form>
+        </form>
+    </body>
+</html>
