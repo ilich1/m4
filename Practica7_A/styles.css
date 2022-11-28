@@ -1,0 +1,48 @@
+html, body {
+    min-height: 100%;
+}
+/*ESTILOS DE LAS CAJAS PADRE*/
+.cajonP1{
+    display: flex;
+    height: 120px;
+    width: 160px;
+    position: absolute;
+    background-color: #78a4d2;
+    left: 20px;
+    top:40px;
+    z-index:100;
+    box-sizing: border-box;
+    border: 0.6px solid #3498DB  ;
+}
+.cajonP2{
+    display: flex;
+    position: absolute;
+    height: 120px;
+    width: 160px;
+    background-color: #ff3939;
+    left:100px;
+    top: 140px;
+    box-sizing: border-box;
+    border: 0.6px solid black  ;
+}
+/*ESTILOS DE LAS CAJAS HIJO*/
+.cajonH1{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background-color: #ffff00;
+    left: 20px;
+    top:20px;
+    box-sizing: border-box;
+    border: 0.2px solid #2874A6 ;
+}
+.cajonH2{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background-color: #39ff9e;
+    left: 100px;
+    top:60px;
+    box-sizing: border-box;
+    border: 0.6px solid #17A589;
+}
