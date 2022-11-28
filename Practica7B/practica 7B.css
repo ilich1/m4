@@ -1,0 +1,40 @@
+.cuadradoAmarillo {
+    width: 160px;           
+   height: 120px;        
+    background: yellow; /*creacion de la caja amarilla */     
+    border: 1px solid #000; 
+    margin-top: 40px;
+    margin-left: 20px;
+    
+ }
+ .cuadradoAzul{
+    width: 40px;           
+    height: 40px;        
+    background: rgb(112, 112, 227);  /*creacion de la caja azul*/      
+    border: 1px solid #000;
+    margin-top: 20px;
+    margin-left: 20px;
+
+ }
+
+ .cuadradoRojo{
+    width: 40px;    /*creacion de la caja roja y utilizamos la posicion relativa y top, para conseguir nuestro objetivo*/       
+    height: 40px;        
+    background: rgb(222, 60, 87);        
+    border: 1px solid #000;
+    
+    margin-left: 100px;
+    position: relative;
+    top:60px
+ } 
+ .cuadradoVerde{
+    width: 160px;           
+    height: 120px;        
+    background: rgb(65, 224, 81);        
+    border: 1px solid #000;
+    margin-top: 0px;
+    margin-left: 100px;
+    position: absolute;/*creamos el cuadro verde y utilizamos la posicion absoluta para conseguir centrar las cajas */
+    top: 140px;
+    
+ }
